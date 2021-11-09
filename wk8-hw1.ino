@@ -7,20 +7,20 @@ int resolution = 8;
 int tonePin = 12;
 
 int melody[] = {
-  NOTE_E5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_G5, NOTE_F5, NOTE_E5, 
-  NOTE_D5, NOTE_C5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_E5, NOTE_D5, 
-  NOTE_D5, 
-  NOTE_E5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_G5, NOTE_F5, NOTE_E5, 
-  NOTE_D5, NOTE_C5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_D5, NOTE_C5, 
-  NOTE_C5,
+  NOTE_E6, NOTE_DS6, NOTE_E6, NOTE_DS6, NOTE_E6, NOTE_B5, NOTE_D6, 
+  NOTE_C6, NOTE_A5, 0, NOTE_C5, NOTE_E6,  NOTE_A6, NOTE_B6, 
+  0,NOTE_E5, NOTE_GS5, NOTE_B5, NOTE_C6,0,
+  NOTE_E6, NOTE_DS6, NOTE_E6, NOTE_DS6, NOTE_E6, NOTE_B5, NOTE_D6, 
+  NOTE_C6, NOTE_A5, 0, NOTE_C5, NOTE_E6,  NOTE_A6, NOTE_B6, 
+  0,NOTE_E5, NOTE_C6, NOTE_B5, NOTE_A5
 };
 int noteDurations[] = {
-  4, 4, 4, 4, 4, 4, 4,
-  4, 4, 4, 4, 4, 2, 8,
-  8,
-  4, 4, 4, 4, 4, 4, 4,
-  4, 4, 4, 4, 4, 2, 8,
-  8
+  8, 8, 8, 8, 8, 8, 8,
+  8, 8, 4, 8, 8, 8, 8,
+  4, 8, 8, 8, 8, 4,
+  8, 8, 8, 8, 8, 8, 8,
+  8, 8, 4, 8, 8, 8, 8,
+  4, 8, 8, 8, 4
 };
 
 void setup() {
